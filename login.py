@@ -17,7 +17,7 @@ import hashlib
 
 # username: sha256(password)
 CREDENTIALS = {
-    "admin": hashlib.sha256("changeme123".encode()).hexdigest(),
+    "Komal": hashlib.sha256("komal@123".encode()).hexdigest(),
 }
 
 
